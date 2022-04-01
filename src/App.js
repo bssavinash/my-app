@@ -4,6 +4,7 @@ import { useSelector, useDispatch } from 'react-redux'
 import { decrementCount, incrementCount } from './store/action'
 import { decrement, increment } from './store/counterSlice'
 import Login from './login/Login.js'
+import ReadCred from './login/ReadCred.js'
 
 
 export default function Counter() {
@@ -37,6 +38,7 @@ export default function Counter() {
        
         
       </div> */}
+      <ReadCred />
       <Login />
     </div>
   )
